@@ -14,5 +14,7 @@ namespace EF_Mutiple_Dev_Migration_Demo
         public int ID { get; set; }
 
         public string Name { get; set; }
+
+        public string Field1 { get; set; }
     }
 }
