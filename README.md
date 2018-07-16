@@ -6,7 +6,7 @@
 
 
 1. 
-https://github.com/ChengYiWu/EF_Mutiple_Dev_Migration_Demo/commit/a13f7e0a58007d4b50ba55ca5875d89c9840a8cd Commit By Dev1 新增了一個 Field1 欄位
+[a13f7e]https://github.com/ChengYiWu/EF_Mutiple_Dev_Migration_Demo/commit/a13f7e0a58007d4b50ba55ca5875d89c9840a8cd Commit By Dev1 新增了一個 Field1 欄位
 
 2. 0060110633a48f84772292d34b73722050563700 Commit By Dev2 新增了一個 Field2 欄位
 
