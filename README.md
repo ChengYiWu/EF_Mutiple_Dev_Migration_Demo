@@ -5,7 +5,8 @@
 使用 `Add-Migration 'XXX' -IngoreChanges `
 
 
-1. a13f7e0a58007d4b50ba55ca5875d89c9840a8cd Commit By Dev1 新增了一個 Field1 欄位
+1. 
+https://github.com/ChengYiWu/EF_Mutiple_Dev_Migration_Demo/commit/a13f7e0a58007d4b50ba55ca5875d89c9840a8cd Commit By Dev1 新增了一個 Field1 欄位
 
 2. 0060110633a48f84772292d34b73722050563700 Commit By Dev2 新增了一個 Field2 欄位
 
@@ -14,6 +15,6 @@
 
 4. b10f4fa177d3892eded0302d7a4a5538ac49a24f Commit By Dev2 新增一個空的 Migration ，該檔案 snapshot 使用目前 entity model 狀態，所以 EF 就不會覺得目前 entity model 和 Migration 不一致
 
-`Add-Migration XXX -IgnoreChanges `
+  `Add-Migration XXX -IgnoreChanges `
 
 5. 這時 Dev2 local 環境就可以正常運行，Dev1 同樣正常。
