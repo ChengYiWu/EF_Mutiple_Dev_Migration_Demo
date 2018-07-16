@@ -17,7 +17,6 @@ https://github.com/ChengYiWu/EF_Mutiple_Dev_Migration_Demo/commit/a13f7e0a58007d
 
 4. [b10f4f](
 https://github.com/ChengYiWu/EF_Mutiple_Dev_Migration_Demo/commit/b10f4fa177d3892eded0302d7a4a5538ac49a24f) Commit By Dev2 新增一個空的 Migration ，該檔案 snapshot 使用目前 entity model 狀態，所以 EF 就不會覺得目前 entity model 和 Migration 不一致
-
-  `Add-Migration XXX -IgnoreChanges `
+* `Add-Migration XXX -IgnoreChanges `
 
 5. 這時 Dev2 local 環境就可以正常運行，Dev1 同樣正常。
