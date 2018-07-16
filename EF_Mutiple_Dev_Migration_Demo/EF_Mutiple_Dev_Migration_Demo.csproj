@@ -57,6 +57,10 @@
     <Compile Include="Migrations\201807160338398_InitBookTable.Designer.cs">
       <DependentUpon>201807160338398_InitBookTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807160349015_AddField2ByDev2.cs" />
+    <Compile Include="Migrations\201807160349015_AddField2ByDev2.Designer.cs">
+      <DependentUpon>201807160349015_AddField2ByDev2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -68,6 +72,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201807160338398_InitBookTable.resx">
       <DependentUpon>201807160338398_InitBookTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807160349015_AddField2ByDev2.resx">
+      <DependentUpon>201807160349015_AddField2ByDev2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
